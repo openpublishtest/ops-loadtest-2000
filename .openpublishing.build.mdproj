@@ -4,7 +4,7 @@
     <OutputFolder Condition="'$(OutputFolder)' == '' ">$(MSBuildThisFileDirectory)_site</OutputFolder>
     <LogOutputFolder Condition="'$(LogOutputFolder)' == ''">$(MSBuildThisFileDirectory)\log\</LogOutputFolder>
   </PropertyGroup>
-
+ 
   <PropertyGroup>
     <SourceFolder>"$(RepositoryRoot)\normalsize"</SourceFolder>
     <ServerOutputFolder>"$(OutputFolder)\normalsize"</ServerOutputFolder>
