@@ -12,7 +12,7 @@
 
   <!-- Fake Build Target -->
   <Target Name="Build">
-    <Exec Command="robocopy.exe $(SourceFolder) $(ServerOutputFolder)
+    <Exec Command="robocopy.exe $(SourceFolder) $(ServerOutputFolder) /MT:8
                    exit 0" />
   </Target>
 </Project>
